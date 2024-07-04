@@ -7,7 +7,7 @@ const Marquee = () => {
         <h1>WHO WE ARE ?</h1>
       </div>
       <div className='border-t border-b mt-6 text-[18vw] font-extrabold text-white whitespace-nowrap flex'>
-        <h1 className=''>WE ARE DEVELOPERS</h1>
+        <h1 className=''>WE ARE DEVELOPERS </h1>
       </div>
     </div>
   );
