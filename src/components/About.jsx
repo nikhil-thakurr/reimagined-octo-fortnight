@@ -4,7 +4,7 @@ import pic from '../Images/coding.png'
 
 const About = () => {
   return (
-    <div className='bg-[#cdea68] w-full rounded-3xl -mt-6' >
+    <div  className='bg-[#cdea68] w-full rounded-3xl -mt-6' >
 
 
       <div className='w-3/4 p-12'>

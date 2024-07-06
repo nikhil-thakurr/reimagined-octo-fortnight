@@ -2,9 +2,9 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div className='w-full p-10 flex gap-5'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.1" className='w-full p-10 flex gap-5 border-2'>
 
-        <div className='w-1/2 h-[50vh] bg-[#014D43] rounded-xl relative flex justify-center items-center' >
+        <div className='w-1/2 h-[50vh] bg-[#014D43] rounded-xl relative flex justify-center items-center border-2' >
 
            
 

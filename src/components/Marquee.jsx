@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 const Marquee = () => {
   
   return (
-    <>
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className='mt-10'>
       <div className='text-black p-2 text-2xl font-bold ' >
         <h1>WHO WE ARE ?</h1>
       </div>
@@ -15,7 +15,7 @@ const Marquee = () => {
         <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear",repeat:Infinity,duration:10}} className='leading-none'>WE ARE DEVELOPERS </motion.h1 >
       </div>
     </div>
-    </>
+    </div>
   );
 };
 

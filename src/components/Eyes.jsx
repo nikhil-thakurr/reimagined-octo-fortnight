@@ -19,8 +19,8 @@ const Eyes = () => {
     },[])
 
     return (
-        <div className='w-full h-screen overflow-hidden' >
-            <div
+        <div  className='w-full h-screen overflow-hidden' >
+            <div data-scroll data-scroll-section data-scroll-speed="-.7"
                 className='w-full h-full bg-cover bg-center relative'
                 style={{ backgroundImage: `url(${img})` }}
             >

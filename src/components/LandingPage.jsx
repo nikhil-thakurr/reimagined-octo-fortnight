@@ -1,13 +1,15 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { SlArrowRightCircle } from "react-icons/sl";
 const LandingPage = () => {
+
   return (
-    <div className="w-full h-screen font-['Founders_Grotesk_X-Condensed] ">
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full   font-['Founders_Grotesk_X-Condensed] ">
       <div className="my-20 mx-8 uppercase font-bold  text-8xl ">
         {["we create", "eye-opening", "presentations"].map((item, idx) => (
           <div className="flex items-center">
             {idx == 1 && (
-              <div className=" h-20 w-40">
+              <motion.div initial={{ height: 0, width: 0 }} animate={{ height: 100, width: 100 }} transition={{ ease: [0.61, 1, 0.88, 1], duration: 2 }} className=" h-20 w-40">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="120px"
@@ -37,7 +39,7 @@ const LandingPage = () => {
                     fill="#E73B37"
                   />
                 </svg>
-              </div>
+              </motion.div>
             )}
             <h1 className=" custom-tracking">{item}</h1>
           </div>
