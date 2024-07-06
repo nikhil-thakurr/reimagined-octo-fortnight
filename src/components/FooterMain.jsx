@@ -2,9 +2,9 @@ import React from 'react'
 
 const FooterMain = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed=".8" className='w-full h-screen p-10 flex'>
+        <div className='w-full h-screen p-10 flex'>
 
-            <div  className='w-1/2 flex flex-col justify-between h-full'>
+            <div data-scroll data-scroll-section data-scroll-speed="1.8"   className='w-1/2 flex flex-col justify-between h-full'>
                 <div>
                     <h1 className='text-8xl font-bold tracking-tighter leading-none'>EYE - </h1>
                     <h1 className='text-8xl font-bold tracking-tighter leading-none'>OPENING</h1>
@@ -20,7 +20,7 @@ const FooterMain = () => {
                 </div>
             </div>
 
-            <div className='w-1/2 h-full'>
+            <div data-scroll data-scroll-section data-scroll-speed="1" className='w-1/2 h-full'>
                 <div>
                     <h1 className='text-8xl font-bold tracking-tighter leading-none'>PRESENTATIONS</h1>
                 </div>

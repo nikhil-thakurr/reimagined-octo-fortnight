@@ -17,7 +17,7 @@ const Footer = () => {
     },[])
   return (
     <div data-scroll data-scroll-section data-scroll-speed=".3"  className="w-full bg-[#bde13b] p-10 relative">
-      <div >
+      <div data-scroll data-scroll-section data-scroll-speed=".3" >
       <div className="text-[12vw] font-bold leading-none mt-40 items-center justify-center flex flex-col tracking-tighter">
         <h1>READY </h1>
         <h1>TO START </h1>
